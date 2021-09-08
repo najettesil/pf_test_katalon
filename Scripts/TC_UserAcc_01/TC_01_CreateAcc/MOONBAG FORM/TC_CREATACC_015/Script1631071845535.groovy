@@ -21,3 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.profitfarmers.com/free-moonbag-kit/')
 
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/button_GET INSTANT ACCESS'))
+
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/i_FREEMOON BAG_fas fa-exclamation-circle error'), 
+    0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_hasAgreedToAgreement'), 
+    'class', 'terms error form-control', 0)
+
