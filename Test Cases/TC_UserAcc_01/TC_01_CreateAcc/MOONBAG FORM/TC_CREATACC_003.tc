@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if user able to sign up - Moonbag page</description>
+   <name>TC_CREATACC_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e117143e-9c64-4564-b3b9-8bb8424ced13</testCaseGuid>
+</TestCaseEntity>

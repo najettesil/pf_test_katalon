@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Enter key is pressed, it works as a substitute for the Submit button
+
+Sign up page</description>
+   <name>TC_CREATACC_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d2cd143-9501-4f55-ab79-4772540e31f6</testCaseGuid>
+</TestCaseEntity>

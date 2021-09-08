@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the fields are blank and submit button is clicked, error messages is shown</description>
+   <name>TC_CREATACC_013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67df79ae-ac2f-4440-81b6-d198d1d1a822</testCaseGuid>
+</TestCaseEntity>

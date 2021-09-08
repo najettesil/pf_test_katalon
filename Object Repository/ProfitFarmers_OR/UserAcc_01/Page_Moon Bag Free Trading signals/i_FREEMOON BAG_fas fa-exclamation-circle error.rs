@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_FREEMOON BAG_fas fa-exclamation-circle error</name>
+   <tag></tag>
+   <elementGuidId>5f44a0a5-34af-4e49-8a56-6617d488ff41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root-profitfarmers-moonbag-signup']/div/div/div/div/div/div[2]/div/form/div[3]/div/div/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-exclamation-circle.error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-exclamation-circle error</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root-profitfarmers-moonbag-signup&quot;)/div[@class=&quot;sc-iCoGMd kMthTr&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;p-0 col&quot;]/div[@class=&quot;sc-gKAaRy hydYaP card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;sc-gtsrHT gfuSqG form-bg&quot;]/form[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;error input-group&quot;]/div[@class=&quot;input-group-prepend&quot;]/span[@class=&quot;input-group-text&quot;]/i[@class=&quot;fas fa-exclamation-circle error&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root-profitfarmers-moonbag-signup']/div/div/div/div/div/div[2]/div/form/div[3]/div/div/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user press the tab key, the text selector cursor will moved to the next input field
+
+PF trader page</description>
+   <name>TC_CREATACC_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7a1584c-9918-44d2-b35d-9da35bcb6c90</testCaseGuid>
+</TestCaseEntity>
