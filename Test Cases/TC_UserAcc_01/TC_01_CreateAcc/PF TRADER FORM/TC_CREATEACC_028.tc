@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if unable to enter number in Name field</description>
+   <name>TC_CREATEACC_028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e179c631-fdd2-4f64-92ea-33cba1dec44c</testCaseGuid>
+</TestCaseEntity>

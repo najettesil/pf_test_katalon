@@ -19,14 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
+WebUI.navigateToUrl('https://profitfarmers.com/pf-trader')
 
-WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_name'), 'Lorem Ipsum123')
+WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'Lorem Ipsum123')
 
-WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_name'), Keys.chord(Keys.TAB))
+WebUI.getAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'value')
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Page_Sign Up Error message/span_Please enter a valid name'), 
-    0)
+WebUI.verifyElementAttributeValue(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'value', 'Lorem Ipsum', 0)
 
 WebUI.closeBrowser()
 
