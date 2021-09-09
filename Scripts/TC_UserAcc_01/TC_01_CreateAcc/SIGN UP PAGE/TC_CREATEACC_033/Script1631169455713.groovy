@@ -19,12 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.profitfarmers.com/free-moonbag-kit/')
+WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_name'), 
-    'Lorem Ipsum')
+WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_emailAddress'), 'loremipsum@example.com')
 
-WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/i_GET STARTEDFOR FREE_fas fa-check'), 
+WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_emailAddress'), Keys.chord(
+        Keys.TAB))
+
+WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Page_Sign Up Error message/span_Email address is required'), 
     0)
 
 WebUI.closeBrowser()

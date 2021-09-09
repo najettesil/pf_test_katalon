@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if unable to enter special characters in Name field</description>
+   <name>TC_CREATEACC_031</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fff8f0fe-8346-492e-ab06-c09439c84346</testCaseGuid>
+</TestCaseEntity>

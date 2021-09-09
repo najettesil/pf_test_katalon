@@ -24,11 +24,10 @@ WebUI.navigateToUrl('https://profitfarmers.com/pf-trader')
 WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
     'Lorem Ipsum123')
 
-WebUI.getAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+result = WebUI.getAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
     'value')
 
-WebUI.verifyElementAttributeValue(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
-    'value', 'Lorem Ipsum', 0)
+WebUI.verifyMatch(result, 'Lorem Ipsum', false)
 
 WebUI.closeBrowser()
 

@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.profitfarmers.com/free-moonbag-kit/')
+WebUI.navigateToUrl('https://profitfarmers.com/pf-trader')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_name'), 
-    'Lorem Ipsum')
+WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'Lorem !p$um')
 
-WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/i_GET STARTEDFOR FREE_fas fa-check'), 
-    0)
+result = WebUI.getAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'value')
+
+WebUI.verifyMatch(result, 'Lorem pum', false)
 
 WebUI.closeBrowser()
 

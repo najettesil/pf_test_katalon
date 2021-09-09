@@ -21,8 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.profitfarmers.com/free-moonbag-kit/')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_name'), 
-    'Lorem Ipsum')
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_email'), 
+    'loremipsum@example.com')
 
 WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/i_GET STARTEDFOR FREE_fas fa-check'), 
     0)

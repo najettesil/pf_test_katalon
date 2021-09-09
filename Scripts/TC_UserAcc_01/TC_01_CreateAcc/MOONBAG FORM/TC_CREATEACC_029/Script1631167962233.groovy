@@ -29,3 +29,5 @@ result = WebUI.getAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moo
 
 WebUI.verifyMatch(result, 'Lorem Ipsum', false)
 
+WebUI.closeBrowser()
+
