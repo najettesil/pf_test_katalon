@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify if the Privacy Policy link is clicked it will open into a new tab and displays the Privacy Policy content</description>
    <name>TC_CREATEACC_020</name>
    <tag></tag>
    <comment></comment>
