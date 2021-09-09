@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 
-WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Links/a_Terms of Use'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Links/a_Terms of Use'))
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, Keys.TAB))
+WebUI.switchToWindowTitle('Terms of Use - ProfitFarmers')
 
-WebUI.takeScreenshot('D:\\Repositories\\pf_test_katalon\\Screenshots\\test.png')
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/h1_TERMS OF USE'), 0)
+
+WebUI.closeBrowser()
 
