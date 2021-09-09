@@ -19,13 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.profitfarmers.com/pf-trader/')
+WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 
-WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/Links/a_Privacy Policy'))
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Links/a_Login'))
 
-WebUI.switchToWindowTitle('Privacy Policy - ProfitFarmers')
-
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/h2_PRIVACY POLICY'), 0)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/p_You can log in to your ProfitFarmers acco_b23a72'), 
+    0)
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>7e4bd356-4c24-48a6-9d23-bb58f137c03b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//article[@id='post-27020']/div/div/div/div/section/div/div/div/div/div/div/div/h1</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1.elementor-heading-title.elementor-size-medium</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-27020']/div/div/div/div/section/div/div/div/div/div/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

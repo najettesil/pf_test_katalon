@@ -25,7 +25,7 @@ WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF tra
 
 WebUI.switchToWindowTitle('Terms of Use - ProfitFarmers')
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/h1_TERMS OF USE'), 0)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/h1_TERMS OF USE'), 0)
 
 WebUI.closeBrowser()
 

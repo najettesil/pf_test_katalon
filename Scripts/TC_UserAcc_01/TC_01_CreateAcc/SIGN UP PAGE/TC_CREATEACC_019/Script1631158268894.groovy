@@ -25,7 +25,7 @@ WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Links/a_Pri
 
 WebUI.switchToWindowTitle('Privacy Policy - ProfitFarmers')
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/h2_PRIVACY POLICY'), 0)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/h2_PRIVACY POLICY'), 0)
 
 WebUI.closeBrowser()
 
