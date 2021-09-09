@@ -329,4 +329,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/SIGN UP PAGE/TC_CREATEACC_039</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d0c4d6ed-7fb1-47a6-a0cd-6bbc06ad31ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/SIGN UP PAGE/TC_CREATEACC_040</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f812935b-74f2-4d8d-b4d6-5bd99579ec7b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e26d0b63-9857-40c9-90de-a5be842fac6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f35f0fe6-ff9a-4dcc-afdd-c929971f2734</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb8ab440-0943-4ad6-b3b7-028cbe3759dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3b63d8f7-bf08-4136-838f-1a9768a8c288</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
