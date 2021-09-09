@@ -125,4 +125,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/SIGN UP PAGE/TC_CREATEACC_022</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c2cfb4c2-c230-4a85-a97f-21c98226950a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/SIGN UP PAGE/TC_CREATEACC_023</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>648cd724-5dca-41d0-a5ca-33d50e769688</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/SIGN UP PAGE/TC_CREATEACC_024</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>748cff9f-2bc2-477d-b3a1-b8b682013b94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/PF TRADER FORM/TC_CREATEACC_025</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcd06521-e81f-4141-bc66-f83f43a4089d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/MOONBAG FORM/TC_CREATEACC_026</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
