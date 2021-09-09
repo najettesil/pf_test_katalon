@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Privacy Policy</name>
    <tag></tag>
-   <elementGuidId>e13ca58e-f6f8-442a-bd97-62c177598f26</elementGuidId>
+   <elementGuidId>5dd64576-5f1d-4814-9591-dfc1ee11af5a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form-content']/div[5]/div/label/a[2]</value>
+         <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[4]/div/label/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>rel</name>
       <type>Main</type>
-      <value>noreferrer</value>
+      <value>noopener noreferrer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form-content&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;sc-hKFxyN kksiKu&quot;]/label[@class=&quot;form-label registration-checkbox&quot;]/a[2]</value>
+      <value>id(&quot;root-profitfarmers-trader-reg-form&quot;)/div[@class=&quot;sc-bdfBwQ cIKpxU&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;p-0 col&quot;]/div[@class=&quot;sc-gsTCUz bhdLno card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;sc-gKsewC gnwqMi&quot;]/form[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;hasAgreedToAgreement checkBox&quot;]/label[@class=&quot;form-label registration-checkbox&quot;]/a[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='form-content']/div[5]/div/label/a[2]</value>
+      <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[4]/div/label/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Started'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GET INSTANT ACCESS'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='As Featured On'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
