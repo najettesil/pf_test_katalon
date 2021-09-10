@@ -6,15 +6,18 @@
    <elementGuidId>92dbe02c-b937-4cea-b5a2-b6dec0578185</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@for = 'hasAgreedToPreFlight' and (text() = 'I agree to the Pre-Flight Checklist' or . = 'I agree to the Pre-Flight Checklist')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='form-content']/div[6]/div/label</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <value>form-label </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>

@@ -6,15 +6,19 @@
    <elementGuidId>7a5f2204-c2c7-4ed5-a2e5-0e634544cc8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='formBasicAgreement']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#formBasicAgreement</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'hasAgreedToAgreement' and @type = 'checkbox' and @id = 'formBasicAgreement']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='formBasicAgreement']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

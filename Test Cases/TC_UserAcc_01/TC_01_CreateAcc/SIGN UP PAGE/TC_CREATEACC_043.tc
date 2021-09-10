@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the checkbox &quot;I agree to the Terms of Use and Privacy Policy&quot; is checked and the Submit button is clicked, no error message is displayed for TOU checkbox</description>
+   <name>TC_CREATEACC_043</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>913f3db3-6e3f-4776-ad0c-37215eeecd75</testCaseGuid>
+</TestCaseEntity>

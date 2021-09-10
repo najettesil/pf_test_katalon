@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the checkbox &quot;I agree to the Pre-flight Checklist&quot; is unchecked the Submit button is clicked, the checkbox turned color red and Pref-Flight modal is shown</description>
+   <name>TC_CREATEACC_050</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aff076dd-944b-42d2-97e8-f2963692ae00</testCaseGuid>
+</TestCaseEntity>

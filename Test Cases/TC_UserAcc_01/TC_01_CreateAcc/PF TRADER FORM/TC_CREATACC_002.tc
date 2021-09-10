@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify if user able to sign up - PF trader page</description>
-   <name>TC_CREATACC_002</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ebc97857-e224-41f7-b7eb-b070b186880e</testCaseGuid>
-</TestCaseEntity>

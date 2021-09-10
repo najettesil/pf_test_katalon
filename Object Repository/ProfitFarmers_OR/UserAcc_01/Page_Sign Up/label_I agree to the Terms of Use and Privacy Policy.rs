@@ -6,15 +6,18 @@
    <elementGuidId>b29f50e3-ca77-4b44-9684-35e1e5eac02d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@for = 'hasAgreedToTerms' and (text() = 'I agree to the Terms of Use and Privacy Policy' or . = 'I agree to the Terms of Use and Privacy Policy')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='form-content']/div[5]/div/label</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <value>form-label registration-checkbox </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
