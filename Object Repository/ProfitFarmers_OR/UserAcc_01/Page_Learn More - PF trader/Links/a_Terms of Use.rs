@@ -15,10 +15,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://www.profitfarmers.com/terms-of-use' and (text() = 'Terms of Use' or . = 'Terms of Use')]</value>
+         <value>//*[@href = 'https://www.profitfarmers.com/terms-of-use' and @target = '_blank']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,14 +42,14 @@
       <value>noopener noreferrer</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
