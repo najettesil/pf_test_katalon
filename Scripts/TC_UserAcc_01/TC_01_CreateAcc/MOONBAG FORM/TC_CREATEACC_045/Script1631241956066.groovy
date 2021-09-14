@@ -17,5 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_UserAcc_01/TC_01_CreateAcc/MOONBAG FORM/TC_CREATEACC_003'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.profitfarmers.com/free-moonbag-kit/')
+
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_name'), 
+    'Lorem Ipsum')
+
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_email'), 
+    findTestData('CreateAcc Test Data').getValue(4, 3))
+
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_hasAgreedToAgreement'))
+
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/button_GET INSTANT ACCESS'))
+
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/div_Get Signals Now'), 
+    0)
+
+WebUI.closeBrowser()
 

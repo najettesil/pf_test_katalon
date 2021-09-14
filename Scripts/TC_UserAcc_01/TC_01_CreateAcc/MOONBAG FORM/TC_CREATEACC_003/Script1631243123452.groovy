@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Tra
     'Lorem Ipsum')
 
 WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_email'), 
-    'loremipsum_MB@moonbag.com')
+    findTestData('CreateAcc Test Data').getValue(4, 1))
 
 WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_hasAgreedToAgreement'))
 

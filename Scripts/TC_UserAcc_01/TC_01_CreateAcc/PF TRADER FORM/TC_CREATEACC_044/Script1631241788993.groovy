@@ -17,5 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_UserAcc_01/TC_01_CreateAcc/PF TRADER FORM/TC_CREATEACC_002'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.profitfarmers.com/pf-trader/')
+
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'Lorem Ipsum')
+
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_emailAddress'), 
+    findTestData('CreateAcc Test Data').getValue(3, 3))
+
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_hasAgreedToAgreement'))
+
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/button_GET INSTANT ACCESS'))
+
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/Page_PF Trader Subscription Plans - ProfitFarmers/Quarterly Price_table'), 
+    0)
+
+WebUI.closeBrowser()
 
