@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF t
     'Lorem Ipsum')
 
 WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_emailAddress'), 
-    findTestData('CreateAcc Test Data').getValue(3, 4))
+    findTestData('CreateAcc Test Data').getValue(3, 7))
 
 WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_hasAgreedToAgreement'))
 

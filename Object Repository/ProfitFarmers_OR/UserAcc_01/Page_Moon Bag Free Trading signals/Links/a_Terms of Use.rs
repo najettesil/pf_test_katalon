@@ -6,12 +6,16 @@
    <elementGuidId>f67c2799-75bf-4453-b22f-4369a34c56a7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root-profitfarmers-moonbag-signup']/div/div/div/div/div/div[2]/div/form/div[4]/div/label/a</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>label.form-label.registration-checkbox > a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root-profitfarmers-moonbag-signup']/div/div/div/div/div/div[2]/div/form/div[4]/div/label/a</value>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://www.profitfarmers.com/terms-of-use' and (text() = 'Terms of Use' or . = 'Terms of Use')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>dc48be90-17ec-4086-bd96-b963c6117ccb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label.form-label.registration-checkbox > a</value>
+         <key>XPATH</key>
+         <value>//a[contains(@href, 'https://www.profitfarmers.com/terms-of-use')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[4]/div/label/a</value>
+         <key>CSS</key>
+         <value>label.form-label.registration-checkbox > a</value>
       </entry>
       <entry>
          <key>BASIC</key>
