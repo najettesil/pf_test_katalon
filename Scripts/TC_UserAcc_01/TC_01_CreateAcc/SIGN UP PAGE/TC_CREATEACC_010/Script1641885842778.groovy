@@ -26,7 +26,7 @@ WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_name'), 'Lorem Ipsum')
 
 WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_emailAddress'), findTestData(
-        'CreateAcc Test Data').getValue(2, 10))
+        'CreateAcc Test Data').getValue(2, 9))
 
 WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_password'), 
     'dgQCD+SCZeOBmBJBofgBNA==')
@@ -44,10 +44,10 @@ WebElement clickPreflight = WebUiCommonHelper.findWebElement(findTestObject('Pro
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(clickPreflight))
 
-WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_confirmPassword'), Keys.chord(
-        Keys.ENTER))
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/span_Get Started'))
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/a_Resend confirmation link'), 0)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Page_Sign Up Error message/h2_Email has already been taken'), 
+    0)
 
 WebUI.closeBrowser()
 

@@ -21,12 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.profitfarmers.com/pf-trader/')
 
-WebUI.focus(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
+    'Lorem Ipsum')
 
-WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
-    Keys.chord(Keys.TAB))
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_emailAddress'), 
+    findTestData('CreateAcc Test Data').getValue(3, 3))
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/i_GET STARTEDFOR FREE_fas fa-check'), 
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_hasAgreedToAgreement'))
+
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/button_GET INSTANT ACCESS'))
+
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/div_ErrorEmail has already been taken'), 
     0)
 
 WebUI.closeBrowser()

@@ -41,3 +41,5 @@ WebUI.verifyElementHasAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page
 WebUI.verifyElementHasAttribute(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/label_I agree to the Pre-Flight Checklist_obj'), 
     'style', 0)
 
+WebUI.closeBrowser()
+

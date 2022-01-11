@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user is not able to sign up with an email already taken</description>
+   <name>TC_CREATEACC_034</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72add3fd-c841-4857-88b6-21011d20e344</testCaseGuid>
+</TestCaseEntity>

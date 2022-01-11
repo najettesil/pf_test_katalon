@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user input data in Password, characters are masked</description>
+   <name>TC_CREATEACC_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bad7eb58-b3d4-4b90-807f-461125129a3c</testCaseGuid>
+</TestCaseEntity>

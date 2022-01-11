@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_SIGN UP_attachment-medium_large size-medium_large</name>
+   <tag></tag>
+   <elementGuidId>bc120203-309d-4580-9d8a-bc186a336475</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.attachment-medium_large.size-medium_large</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = 'https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-768x251.png' and @alt = 'profitfarmers money back guarantee']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-37128']/div/div/div/div/section/div/div/div/div/div/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>768</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>251</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-768x251.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>attachment-medium_large size-medium_large</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>profitfarmers money back guarantee</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loading</name>
+      <type>Main</type>
+      <value>lazy</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcset</name>
+      <type>Main</type>
+      <value>https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-768x251.png 768w, https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-300x98.png 300w, https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-1024x335.png 1024w, https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-1536x502.png 1536w, https://www.profitfarmers.com/wp-content/uploads/2020/10/profitfarmers-money-back-guarantee-ribbon-2048x670.png 2048w</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sizes</name>
+      <type>Main</type>
+      <value>(max-width: 768px) 100vw, 768px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-37128&quot;)/div[@class=&quot;entry-content clear&quot;]/div[@class=&quot;elementor elementor-37128&quot;]/div[@class=&quot;elementor-inner&quot;]/div[@class=&quot;elementor-section-wrap&quot;]/section[@class=&quot;has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-f25d9e6 terms-header-section elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default&quot;]/div[@class=&quot;elementor-container elementor-column-gap-default&quot;]/div[@class=&quot;elementor-row&quot;]/div[@class=&quot;has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-08a99f6&quot;]/div[@class=&quot;elementor-column-wrap elementor-element-populated&quot;]/div[@class=&quot;elementor-widget-wrap&quot;]/div[@class=&quot;elementor-element elementor-element-362554a elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image&quot;]/div[@class=&quot;elementor-widget-container&quot;]/div[@class=&quot;elementor-image&quot;]/img[@class=&quot;attachment-medium_large size-medium_large&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-37128']/div/div/div/div/section/div/div/div/div/div/div/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='profitfarmers money back guarantee']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

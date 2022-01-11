@@ -31,3 +31,5 @@ WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Ge
 WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Page_Sign Up Error message/span_Email address is required'), 
     0)
 
+WebUI.closeBrowser()
+

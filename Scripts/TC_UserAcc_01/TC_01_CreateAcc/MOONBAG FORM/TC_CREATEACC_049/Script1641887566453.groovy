@@ -19,14 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.profitfarmers.com/pf-trader/')
+WebUI.navigateToUrl('https://www.profitfarmers.com/free-moonbag-kit/')
 
-WebUI.focus(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_name'), 
+    'Lorem Ipsum')
 
-WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
-    Keys.chord(Keys.TAB))
+WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_email'), 
+    findTestData('CreateAcc Test Data').getValue(4, 8))
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/i_GET STARTEDFOR FREE_fas fa-check'), 
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/input_TAKE YOUR FREEMOON BAG_hasAgreedToAgreement'))
+
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/button_GET INSTANT ACCESS'))
+
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Moon Bag Free Trading signals/h4_Oops Email has already been taken'), 
     0)
 
 WebUI.closeBrowser()

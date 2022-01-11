@@ -19,14 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.profitfarmers.com/pf-trader/')
+WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 
-WebUI.focus(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Links/a_Pre-Flight Checklist'))
 
-WebUI.sendKeys(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/input_GET STARTEDFOR FREE_name'), 
-    Keys.chord(Keys.TAB))
+WebUI.click(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/Links/a_refund policy'))
 
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Learn More - PF trader/i_GET STARTEDFOR FREE_fas fa-check'), 
+WebUI.switchToWindowTitle('Money-Back Guarantee and Refund Policy - ProfitFarmers')
+
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/img_SIGN UP_attachment-medium_large size-medium_large'), 
     0)
 
 WebUI.closeBrowser()
