@@ -6,15 +6,19 @@
    <elementGuidId>1c9a5802-a74f-45d1-b203-14043c52d0d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root-profitfarmers-subscription-plans']/div/div/div/div/div/div[2]/div/div[2]/section/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>section.text-center > div.price-subtext > div.btn-wrapper</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Get Started' or . = 'Get Started')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root-profitfarmers-subscription-plans']/div/div/div/div/div/div[2]/div/div[2]/section/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

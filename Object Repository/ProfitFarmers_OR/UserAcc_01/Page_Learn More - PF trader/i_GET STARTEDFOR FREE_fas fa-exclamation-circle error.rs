@@ -10,12 +10,12 @@
          <value>i.fas.fa-exclamation-circle.error</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[2]/div/div/span/i</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;root-profitfarmers-trader-reg-form&quot;)/div[@class=&quot;sc-bdfBwQ cIKpxU&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;p-0 col&quot;]/div[@class=&quot;sc-gsTCUz bhdLno card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;sc-gKsewC gnwqMi&quot;]/form[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;error input-group&quot;]/div[@class=&quot;input-group-prepend&quot;]/span[@class=&quot;input-group-text&quot;]/i[@class=&quot;fas fa-exclamation-circle error&quot;][count(. | //*[@class = 'fas fa-exclamation-circle error']) = count(//*[@class = 'fas fa-exclamation-circle error'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[2]/div/div/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,14 +28,14 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>fas fa-exclamation-circle error</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

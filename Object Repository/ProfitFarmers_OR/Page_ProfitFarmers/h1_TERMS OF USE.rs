@@ -10,14 +10,18 @@
          <value>h1.elementor-heading-title.elementor-size-medium</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'TERMS OF USE' or . = 'TERMS OF USE')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-27020']/div/div/div/div/section/div/div/div/div/div/div/div/h1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

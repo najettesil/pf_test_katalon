@@ -10,11 +10,15 @@
          <value>button.sc-kfYoZR.jIurqP.auth-btn</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Log In' or . = 'Log In')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

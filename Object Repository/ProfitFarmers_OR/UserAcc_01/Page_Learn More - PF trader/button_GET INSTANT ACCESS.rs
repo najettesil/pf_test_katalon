@@ -6,12 +6,16 @@
    <elementGuidId>30e008e2-1626-4280-bedd-8adf9f9e271f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.sc-iBPRYJ.cOWINi.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'GET INSTANT ACCESS' or . = 'GET INSTANT ACCESS')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

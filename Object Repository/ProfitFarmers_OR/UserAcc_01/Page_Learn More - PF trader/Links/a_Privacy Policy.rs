@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://www.profitfarmers.com/privacy-policy' and (text() = 'Privacy Policy' or . = 'Privacy Policy')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[4]/div/label/a[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

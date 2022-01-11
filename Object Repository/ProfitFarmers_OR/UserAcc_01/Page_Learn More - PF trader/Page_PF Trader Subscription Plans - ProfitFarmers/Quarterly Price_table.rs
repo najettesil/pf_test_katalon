@@ -6,15 +6,18 @@
    <elementGuidId>72aa2eb8-744b-4aef-96f1-3bbac8fbdb34</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Save 33% /mQuarterlyMost Popular$200  /monthSave $298 per quarterBilled QuarterlyNo Setup FeeCancel AnytimeGet StartedCrypto Payment:' or . = 'Save 33% /mQuarterlyMost Popular$200  /monthSave $298 per quarterBilled QuarterlyNo Setup FeeCancel AnytimeGet StartedCrypto Payment:')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root-profitfarmers-subscription-plans']/div/div/div/div/div/div[2]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

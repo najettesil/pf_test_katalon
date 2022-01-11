@@ -4,39 +4,41 @@
    <name>i_GET STARTEDFOR FREE_fas fa-check</name>
    <tag></tag>
    <elementGuidId>8ef88841-9849-46b2-b56c-1e3c1819a4a7</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[3]/div/div/span/i</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>CSS</key>
          <value>i.fas.fa-check</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//i[@class = 'fas fa-check']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root-profitfarmers-trader-reg-form']/div/div/div/div/div/div[2]/div/form/div[3]/div/div/span/i</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>fas fa-check</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

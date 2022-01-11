@@ -10,11 +10,15 @@
          <value>h2.elementor-heading-title.elementor-size-xl</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'PRIVACY POLICY' or . = 'PRIVACY POLICY')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-27102']/div/div/div/div/section/div/div/div/div/div/div/div/h2</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
