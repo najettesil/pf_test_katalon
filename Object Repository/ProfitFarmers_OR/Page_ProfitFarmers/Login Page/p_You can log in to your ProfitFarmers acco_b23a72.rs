@@ -10,14 +10,18 @@
          <value>p</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'You can log in to your ProfitFarmers account here.' or . = 'You can log in to your ProfitFarmers account here.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/main/div/div/div/div/div/div/div/div/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -6,18 +6,22 @@
    <elementGuidId>30dac602-a722-4d92-9943-1da1a800a837</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/div/div/div/div/div/p/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = 'Resend confirmation link' or . = 'Resend confirmation link')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/div/div/div/p/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
