@@ -26,7 +26,7 @@ WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_name'), 'Lorem Ipsum')
 
 WebUI.setText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_emailAddress'), findTestData(
-        'CreateAcc Test Data').getValue(2, 10))
+        'CreateAcc Test Data').getValue(2, 12))
 
 WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/input_Get set up in minutes_password'), 
     'dgQCD+SCZeOBmBJBofgBNA==')
