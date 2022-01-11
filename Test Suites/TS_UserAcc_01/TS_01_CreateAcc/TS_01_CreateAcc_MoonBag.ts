@@ -36,6 +36,12 @@
       <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/MOONBAG FORM/TC_CREATEACC_048</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>3ea0f355-0692-40b9-afe2-ffed7835d633</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/MOONBAG FORM/TC_CREATEACC_049</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4e5dac86-1990-4691-8cc4-f6b72414e41a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

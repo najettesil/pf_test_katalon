@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify if the 'refund policy' link is clicked it will open into a new tab and displays the Money-Back Guarantee content</description>
    <name>TC_CREATEACC_014</name>
    <tag></tag>
    <comment></comment>

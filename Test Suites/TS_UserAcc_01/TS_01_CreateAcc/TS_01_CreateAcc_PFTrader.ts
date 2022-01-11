@@ -36,6 +36,12 @@
       <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/PF TRADER FORM/TC_CREATEACC_033</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ffabeaa9-4ebe-424f-af32-67f473df8cc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_UserAcc_01/TC_01_CreateAcc/PF TRADER FORM/TC_CREATEACC_034</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ff4ab12c-b3dd-4ffe-888d-91781bda2176</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
