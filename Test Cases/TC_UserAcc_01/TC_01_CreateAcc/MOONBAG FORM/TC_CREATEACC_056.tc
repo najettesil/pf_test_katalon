@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the entered data in the Email field is an invalid email address, an error message is displayed</description>
+   <name>TC_CREATEACC_056</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e347026b-5467-40fe-8239-34332ceef8e0</testCaseGuid>
+   <variable>
+      <defaultValue>'loremipsu@examplecom'</defaultValue>
+      <description></description>
+      <id>159d5909-34d6-4edb-ac74-1c02068c4a29</id>
+      <masked>false</masked>
+      <name>Test1email</name>
+   </variable>
+   <variable>
+      <defaultValue>'@example'</defaultValue>
+      <description></description>
+      <id>ef44f396-369a-4be3-b71a-1d188235fd34</id>
+      <masked>false</masked>
+      <name>Test4Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'loremipsum@example'</defaultValue>
+      <description></description>
+      <id>e38eeb80-41da-4885-95d8-7643f5b6c6a1</id>
+      <masked>false</masked>
+      <name>Test3Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'@loremipsexample.com'</defaultValue>
+      <description></description>
+      <id>0b041729-bf6a-4a8f-a447-1df7e7d9f9e9</id>
+      <masked>false</masked>
+      <name>Test2Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'loremipsum@example.com'</defaultValue>
+      <description></description>
+      <id>6bdef8b9-0f8f-4b33-be91-cd291d84ba2b</id>
+      <masked>false</masked>
+      <name>ValidEmail</name>
+   </variable>
+</TestCaseEntity>
