@@ -1,50 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify if the entered data in the Email field is an invalid email address, an error message is displayed</description>
+   <description>Verify if the entered data in the Name field is all alphabet, no error message is displayed</description>
    <name>TC_CREATEACC_037</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d21c6371-b1b4-47c4-8b81-a7d61a5a8b18</testCaseGuid>
-   <variable>
-      <defaultValue>'loremipsu@examplecom'</defaultValue>
-      <description></description>
-      <id>d99b94cc-27cb-47a1-9df0-4b55ef0c947c</id>
-      <masked>false</masked>
-      <name>Test1email</name>
-   </variable>
-   <variable>
-      <defaultValue>'@example'</defaultValue>
-      <description></description>
-      <id>8b830208-8e1e-4467-acff-f5be3ec01134</id>
-      <masked>false</masked>
-      <name>Test4Email</name>
-   </variable>
-   <variable>
-      <defaultValue>'loremipsum@example'</defaultValue>
-      <description></description>
-      <id>4e520f54-f6cf-43ff-8a17-8205609768ef</id>
-      <masked>false</masked>
-      <name>Test3Email</name>
-   </variable>
-   <variable>
-      <defaultValue>'@loremipsexample.com'</defaultValue>
-      <description></description>
-      <id>9304d044-4399-4d24-98ce-a066a87c8878</id>
-      <masked>false</masked>
-      <name>Test2Email</name>
-   </variable>
-   <variable>
-      <defaultValue>'loremipsum@example.com'</defaultValue>
-      <description></description>
-      <id>1166593a-ce8e-4a56-b818-b1d12cb2cfbf</id>
-      <masked>false</masked>
-      <name>ValidEmail</name>
-   </variable>
-   <variable>
-      <defaultValue>['loremipsu@examplecom', '@loremipsexample.com', 'loremipsum@example', '@example']</defaultValue>
-      <description></description>
-      <id>db2f0fc7-ba1a-412b-abac-4b54d2859169</id>
-      <masked>false</masked>
-      <name>TestEmails</name>
-   </variable>
+   <testCaseGuid>079456fb-2902-4292-9374-67e366b5d761</testCaseGuid>
 </TestCaseEntity>

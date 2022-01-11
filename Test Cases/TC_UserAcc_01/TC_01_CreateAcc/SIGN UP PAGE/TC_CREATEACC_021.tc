@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the entered data in the Password field is the required/valid data, no error message is displayed
+
+&quot;atleast one lowercase and uppercase
+atleast one number
+atleast one special characters
+atleast 6-12 characters&quot;</description>
+   <name>TC_CREATEACC_021</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd512860-c407-4da1-abd1-ded6feb8848e</testCaseGuid>
+</TestCaseEntity>

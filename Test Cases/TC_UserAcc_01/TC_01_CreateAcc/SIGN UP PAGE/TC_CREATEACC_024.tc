@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify if the entered data in the Name field is all alphabet, no error message is displayed</description>
+   <description>Verify if the entered data in the Re-enter Password field is not equal to Password field data, an error message is displayed</description>
    <name>TC_CREATEACC_024</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>40275750-f6b5-4ffc-9c2b-a48e1e180cc5</testCaseGuid>
+   <testCaseGuid>ade5be9a-ad41-4a55-b0b6-9e3af1d58a08</testCaseGuid>
 </TestCaseEntity>

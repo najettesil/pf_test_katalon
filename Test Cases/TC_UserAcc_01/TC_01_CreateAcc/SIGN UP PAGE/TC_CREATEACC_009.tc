@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user input data in Password and Re-enter password field and slashed eye icon is shown, it reveals the password</description>
+   <name>TC_CREATEACC_009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59c505fa-3194-4e3c-b09e-00bbfcaa0e14</testCaseGuid>
+</TestCaseEntity>

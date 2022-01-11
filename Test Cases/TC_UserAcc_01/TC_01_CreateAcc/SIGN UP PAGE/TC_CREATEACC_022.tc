@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify if the Pre-Flight Checklist link is clicked, the Preflight Checklist modal popup is displayed</description>
+   <description>Verify if the entered data in the Password field is not the required/valid data, an error message is displayed</description>
    <name>TC_CREATEACC_022</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a680a2e8-e2b3-4faf-bca4-e26d70e85df5</testCaseGuid>
+   <testCaseGuid>a2d81cb7-3ef4-4904-9f20-cb701a355046</testCaseGuid>
+   <variable>
+      <defaultValue>'Lisette123'</defaultValue>
+      <description></description>
+      <id>f812935b-74f2-4d8d-b4d6-5bd99579ec7b</id>
+      <masked>false</masked>
+      <name>testpass_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lisette'</defaultValue>
+      <description></description>
+      <id>e26d0b63-9857-40c9-90de-a5be842fac6c</id>
+      <masked>false</masked>
+      <name>testpass_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'lisette123!'</defaultValue>
+      <description></description>
+      <id>f35f0fe6-ff9a-4dcc-afdd-c929971f2734</id>
+      <masked>false</masked>
+      <name>testpass_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'LISETTE123!'</defaultValue>
+      <description></description>
+      <id>cb8ab440-0943-4ad6-b3b7-028cbe3759dd</id>
+      <masked>false</masked>
+      <name>testpass_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Li12!'</defaultValue>
+      <description></description>
+      <id>3b63d8f7-bf08-4136-838f-1a9768a8c288</id>
+      <masked>false</masked>
+      <name>testpass_5</name>
+   </variable>
 </TestCaseEntity>

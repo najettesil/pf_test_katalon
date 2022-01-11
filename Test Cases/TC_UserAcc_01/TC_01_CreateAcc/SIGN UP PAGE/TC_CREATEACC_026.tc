@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the checkbox &quot;I agree to the Terms of Use and Privacy Policy&quot; is unchecked and the Submit button is clicked, the checkbox does have a red border</description>
+   <name>TC_CREATEACC_026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c8c0afa-a6e1-4c55-91f9-f6fd904fb6f7</testCaseGuid>
+</TestCaseEntity>

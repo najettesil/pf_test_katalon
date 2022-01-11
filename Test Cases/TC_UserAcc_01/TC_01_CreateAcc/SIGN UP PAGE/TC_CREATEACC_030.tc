@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify if the entered data in the Name field consist of special characters, an error message is displayed</description>
-   <name>TC_CREATEACC_030</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>29e6135b-f185-4ca9-ae00-af8c691d7b9c</testCaseGuid>
-</TestCaseEntity>

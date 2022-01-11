@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify if the entered data in the Name field is all alphabet, no error message is displayed</description>
-   <name>TC_CREATEACC_025</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>079456fb-2902-4292-9374-67e366b5d761</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Terms of Use link is clicked it will open into a new tab and displays the Terms of Use content</description>
+   <name>TC_CREATEACC_011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0bc29bf-0c84-4403-98b4-6d43616c05b9</testCaseGuid>
+</TestCaseEntity>
