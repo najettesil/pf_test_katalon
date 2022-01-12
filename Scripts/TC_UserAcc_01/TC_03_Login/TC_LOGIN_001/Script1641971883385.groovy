@@ -17,13 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TC_UserAcc_01/TC_01_CreateAcc/SIGN UP PAGE/TC_CREATEACC_001'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), findTestData(
-        null).getValue(2, 1))
+WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), 'loremIpsuma@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
     'dgQCD+SCZeOBmBJBofgBNA==')
+
+WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/button_Log In'))
+
+WebUI.verifyElementPresent(findTestObject(null), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
