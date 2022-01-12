@@ -21,5 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
-WebUI.setText(findTestObject(null), '')
+WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), findTestData(
+        null).getValue(2, 1))
+
+WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
+    'dgQCD+SCZeOBmBJBofgBNA==')
 
