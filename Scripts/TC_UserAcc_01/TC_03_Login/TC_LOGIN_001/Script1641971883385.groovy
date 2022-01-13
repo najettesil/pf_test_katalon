@@ -23,14 +23,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), 'loremIpsuma@gmail.com')
+WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), findTestData(
+        'Login Test Data').getValue(2, 1))
 
 WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
     'dgQCD+SCZeOBmBJBofgBNA==')
 
 WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/button_Log In'))
 
-WebUI.verifyElementPresent(findTestObject(null), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/In app pricing/h4_200  month'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description></description>
-   <name>CreateAcc Test Data</name>
+   <description>Log in data</description>
+   <name>Login Test Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>d8bc3e21-55b4-4a06-bbc1-aed21849ca7a</dataFileGUID>
+   <dataFileGUID>e7b82c09-15b7-404d-9cf5-fec77b71c159</dataFileGUID>
    <dataSourceUrl>C:\Users\Advallu\Downloads\Create Account Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sign up</sheetName>
+   <sheetName>Login</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
