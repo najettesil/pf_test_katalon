@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if user will be able to login with valid email address and valid password</description>
+   <name>TC_LOGIN_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3562c76-ed37-4cab-8519-a434621045f8</testCaseGuid>
+</TestCaseEntity>

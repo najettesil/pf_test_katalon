@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_You can log in to your ProfitFarmers acco_b23a72</name>
+   <name>h2_Signals</name>
    <tag></tag>
-   <elementGuidId>2ff41fcd-1c26-4d96-be96-54b9093e0eb7</elementGuidId>
+   <elementGuidId>64d453a1-a068-4212-85f6-d11af67fb62a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p</value>
+         <key>XPATH</key>
+         <value>//main[@id='sidebar-opt']/div[2]/div/div/div/div/h2</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/main/div/div/div/div/div/div/div/div/p</value>
+         <key>CSS</key>
+         <value>h2.text.theme-section-title</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//p[(text() = 'You can log in to your ProfitFarmers account here.' or . = 'You can log in to your ProfitFarmers account here.')]</value>
+         <value>//h2[(text() = 'Signals' or . = 'Signals')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,62 +25,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>h2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text theme-section-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You can log in to your ProfitFarmers account here.</value>
+      <value>Signals</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;content&quot;]/main[@class=&quot;sc-ellfGf edxkse&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;justify-content-center row&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;justify-content-center auth-row row&quot;]/div[@class=&quot;auth-col col-lg-7 col-md-7&quot;]/div[@class=&quot;sc-bdnxRM jvCTkj&quot;]/div[@class=&quot;sc-gtsrHT gfuSqG&quot;]/p[1]</value>
+      <value>id(&quot;sidebar-opt&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;sc-pVTFL krYTlN set-size&quot;]/div[@class=&quot;sc-iIUQWv jPzkZE signal-slider theme-signal-slider&quot;]/div[@class=&quot;heading&quot;]/div[@class=&quot;title-wrapper&quot;]/h2[@class=&quot;text theme-section-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/main/div/div/div/div/div/div/div/div/p</value>
+      <value>//main[@id='sidebar-opt']/div[2]/div/div/div/div/h2</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome back friend!'])[1]/following::p[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/preceding::p[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/preceding::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/preceding::p[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange'])[1]/preceding::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='You can log in to your ProfitFarmers account here.']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Signals']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
+      <value>//h2</value>
    </webElementXpaths>
 </WebElementEntity>
