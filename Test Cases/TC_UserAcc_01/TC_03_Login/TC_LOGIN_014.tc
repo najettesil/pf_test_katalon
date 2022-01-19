@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user press the tab key, the text selector cursor will moved to the next input field</description>
+   <name>TC_LOGIN_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca824d83-20f1-43a8-b321-6333fdcbf7a0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the data in password field is either visible as asterisk or bullet signs.</description>
+   <name>TC_LOGIN_019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc27d7ab-7e5a-4dd2-aa4e-cc484c9d5409</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Enter key is pressed, it works as a substitute for the Login button</description>
+   <name>TC_LOGIN_015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee07dcde-b89e-4080-b64a-4c0fb6220f90</testCaseGuid>
+</TestCaseEntity>

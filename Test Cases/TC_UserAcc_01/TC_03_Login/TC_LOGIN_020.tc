@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the eye icon in Password field is clicked, it unmasks password</description>
+   <name>TC_LOGIN_020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63367edb-af52-456b-8a28-96a80c6290cc</testCaseGuid>
+</TestCaseEntity>

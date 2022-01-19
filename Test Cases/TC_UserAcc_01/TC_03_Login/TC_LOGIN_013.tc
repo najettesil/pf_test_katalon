@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user cannot login without signing up</description>
+   <name>TC_LOGIN_013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcc2fa5c-d0b7-4084-a5a1-372fbecf7154</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Remember Me checkbox is clicked, you will be signed in automatically</description>
+   <name>TC_LOGIN_016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eab1149e-8139-4342-8ae2-ac72a5df6910</testCaseGuid>
+</TestCaseEntity>
