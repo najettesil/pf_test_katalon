@@ -16,18 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 
-System.setProperty('webdriver.chrome.driver', 'C:\\Katalon_Studio_Windows_64-8.2.0\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe')
-
-WebDriver chrome = new ChromeDriver()
-
-DriverFactory.changeWebDriver(chrome)
+WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
@@ -40,26 +30,4 @@ WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/butto
 
 WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Dashboard/h2_Signals'), 0, FailureHandling.STOP_ON_FAILURE)
 
-System.setProperty('webdriver.gecko.driver', 'C:\\Katalon_Studio_Windows_64-8.2.0\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
-
-WebDriver ff = new FirefoxDriver()
-
-DriverFactory.changeWebDriver(ff)
-
-WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
-
-WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), 'shunn.val@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
-    'TSPxb4Jk+GUCZxpysgq+vg==')
-
-WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/button_Log In'))
-
-WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Dashboard/h2_Signals'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
-
-DriverFactory.changeWebDriver(chrome)
-
-WebUI.closeBrowser()
-
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL + 'T'))

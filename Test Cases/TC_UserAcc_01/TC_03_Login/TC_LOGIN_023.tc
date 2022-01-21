@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user is logged in and then visit the login page it will be redirected to the dashboard</description>
+   <name>TC_LOGIN_023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d20a0f7-bb06-49a5-b636-9da8b3600631</testCaseGuid>
+</TestCaseEntity>
