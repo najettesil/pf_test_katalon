@@ -10,12 +10,12 @@
          <value>#formBasicPassword</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='formBasicPassword']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@placeholder = 'Password' and @name = 'password' and @type = 'password' and @id = 'formBasicPassword']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='formBasicPassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

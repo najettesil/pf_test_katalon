@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the login page allows to log in simultaneously with different credentials in a different browser.</description>
+   <name>TC_LOGIN_022</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d83f5098-968f-4303-9d78-399d68f54789</testCaseGuid>
+</TestCaseEntity>

@@ -21,10 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
-WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
-    'dgQCD+SCZeOBmBJBofgBNA==')
+WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), password)
 
 WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/svg_Welcome back friend_svg-inline--fa fa-eye fa-w-18 fa-sm'))
 
-WebUI.verifyElementText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_login_password_text'), 'Lisette123!')
+WebUI.verifyElementAttributeValue(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
+    'type', 'text', 0)
 
