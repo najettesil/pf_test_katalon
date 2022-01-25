@@ -21,19 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), 'matthew@advallu.com')
+WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 'Lisette123!')
 
-WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
-    'rDU4owkjm04=')
+WebUI.sendKeys(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), Keys.chord(
+        Keys.TAB))
 
-WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/button_Log In'))
+WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/Login Error messages/div_Password must meet the following requirements'), 
+    0)
 
-WebUI.waitForElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Dashboard/h2_Signals'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
-
-WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/h2_Welcome back friend'), 0, 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/Login Error messages/div_password requirement checklist'), 
+    0)
 
 WebUI.closeBrowser()
 

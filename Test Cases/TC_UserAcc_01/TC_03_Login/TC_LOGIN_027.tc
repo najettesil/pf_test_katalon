@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if required error is shown when both field is blank and Log in button is clicked</description>
+   <name>TC_LOGIN_027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c021828-e7a9-44ca-8709-0f8f583d714c</testCaseGuid>
+</TestCaseEntity>

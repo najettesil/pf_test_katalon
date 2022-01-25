@@ -21,19 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
 
-WebUI.setText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_username'), 'matthew@advallu.com')
-
-WebUI.setEncryptedText(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/input_Welcome back friend_password'), 
-    'rDU4owkjm04=')
-
 WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/button_Log In'))
 
-WebUI.waitForElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Dashboard/h2_Signals'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/Login Error messages/span_Email address is required'), 
+    0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
-
-WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/h2_Welcome back friend'), 0, 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/Login Error messages/div_Password_input-wrapper is-invalid'), 
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

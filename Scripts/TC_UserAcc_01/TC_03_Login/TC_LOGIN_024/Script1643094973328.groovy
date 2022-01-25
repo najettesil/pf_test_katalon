@@ -30,10 +30,10 @@ WebUI.click(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/butto
 
 WebUI.waitForElementPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Dashboard/h2_Signals'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://app.profitfarmers.com/account/login')
+WebUI.navigateToUrl('https://www.profitfarmers.com/signup/')
 
-WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/Page_ProfitFarmers/Login Page/h2_Welcome back friend'), 0, 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('ProfitFarmers_OR/UserAcc_01/Page_Sign Up/h2_Sign UpGet set up in minutes'), 
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

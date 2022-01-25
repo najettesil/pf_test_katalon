@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the error message for invalid email address is shown</description>
+   <name>TC_LOGIN_029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad85cd93-7e86-4c14-ad70-f5d99de02924</testCaseGuid>
+</TestCaseEntity>

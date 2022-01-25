@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the 'Sign up' button is clicked the page will be redirected to Sign up page</description>
+   <name>TC_LOGIN_025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb027957-bde5-4305-bc56-cb13438bc698</testCaseGuid>
+</TestCaseEntity>
