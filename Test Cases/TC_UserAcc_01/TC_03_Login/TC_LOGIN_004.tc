@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if user will be able to login as premium account</description>
+   <name>TC_LOGIN_004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72e19623-8231-4de5-a0d8-f77af78afc87</testCaseGuid>
+</TestCaseEntity>
